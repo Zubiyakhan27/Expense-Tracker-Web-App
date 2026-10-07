@@ -1,0 +1,23 @@
+# VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local environment files
+.env
+.env.*
+
+# PHP local configuration
+config.local.php
+
+# XAMPP temporary files
+xampp/

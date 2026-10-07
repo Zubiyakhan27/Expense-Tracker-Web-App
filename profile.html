@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Profile - Expense Tracker</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Expense Tracker
+        </div>
+
+        <div class="nav-links">
+
+            <a href="dashboard.html">
+                Dashboard
+            </a>
+
+            <a href="expenses.html">
+                Expenses
+            </a>
+
+            <a href="income.html">
+                Income
+            </a>
+
+            <a href="transactions.html">
+                Transactions
+            </a>
+
+            <a href="budget.html">
+                Budget
+            </a>
+
+            <a href="reports.html">
+                Reports
+            </a>
+
+            <a href="profile.html">
+                Profile
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <main class="page-container">
+
+        <h1>
+            Profile
+        </h1>
+
+
+        <section class="form-card">
+
+            <label>
+                Name
+            </label>
+
+            <input
+                type="text"
+                id="profileName"
+                readonly
+            >
+
+
+            <label>
+                Email
+            </label>
+
+            <input
+                type="email"
+                id="profileEmail"
+                readonly
+            >
+
+
+            <button
+                type="button"
+                class="btn danger"
+                id="logoutButton">
+
+                Logout
+
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <script src="js/profile.js"></script>
+
+</body>
+
+</html>

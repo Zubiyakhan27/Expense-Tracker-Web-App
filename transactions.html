@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Transactions - Expense Tracker</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Expense Tracker
+        </div>
+
+        <div class="nav-links">
+
+            <a href="dashboard.html">
+                Dashboard
+            </a>
+
+            <a href="expenses.html">
+                Expenses
+            </a>
+
+            <a href="income.html">
+                Income
+            </a>
+
+            <a href="transactions.html">
+                Transactions
+            </a>
+
+            <a href="budget.html">
+                Budget
+            </a>
+
+            <a href="reports.html">
+                Reports
+            </a>
+
+            <a href="profile.html">
+                Profile
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <main class="page-container">
+
+        <h1>
+            Transaction History
+        </h1>
+
+
+        <div class="filter-container">
+
+            <input
+                type="text"
+                id="searchTransaction"
+                placeholder="Search transactions..."
+            >
+
+
+            <select id="transactionFilter">
+
+                <option value="all">
+                    All Transactions
+                </option>
+
+                <option value="income">
+                    Income
+                </option>
+
+                <option value="expense">
+                    Expense
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Type
+                        </th>
+
+                        <th>
+                            Category / Source
+                        </th>
+
+                        <th>
+                            Amount
+                        </th>
+
+                        <th>
+                            Date
+                        </th>
+
+                        <th>
+                            Description
+                        </th>
+
+                        <th>
+                            Actions
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="transactionTable">
+
+                    <tr>
+
+                        <td colspan="6">
+                            Loading...
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+
+    <script src="js/transactions.js"></script>
+
+</body>
+
+</html>
