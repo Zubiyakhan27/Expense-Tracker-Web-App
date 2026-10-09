@@ -1,23 +1,31 @@
-# VS Code
+# Visual Studio Code
 .vscode/
 
 # Operating system files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Logs
+# Log files
 *.log
 
 # Temporary files
 *.tmp
 *.temp
+*.swp
+*.bak
 
-# Local environment files
+# Environment variables and secrets
 .env
 .env.*
+!.env.example
 
-# PHP local configuration
-config.local.php
+# Local database configuration and credentials
+/php/db_config.php
+/php/config.local.php
 
 # XAMPP temporary files
-xampp/
+/xampp/
+
+# PHP development files
+.phpunit.cache/
